@@ -1,0 +1,64 @@
+.ParkSection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    background: var(--color-orange);
+
+    .List{
+       width: 50%;
+       
+       ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        li{
+            width: 323px;
+            height: 37px;
+            border-radius: 13px;
+            background: white;
+            margin: 8px auto;
+            align-content: center;
+
+            p{
+                margin: auto 10px;
+            }
+        }
+       }
+    }
+
+    .ImgSection{
+        width: 50%;
+        img{
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 500px) {
+        flex-direction: column; 
+
+        .List {
+            width: 100%; 
+            margin: 20px auto;
+            
+            ul {
+                width: 100%; 
+
+                li {
+                    width: 90%; 
+                    height: auto; 
+                }
+            }
+        }
+
+        .ImgSection {
+            width: 100%;
+            
+            img {
+                width: 100%; 
+                margin: 20px auto; 
+            }
+        }
+    }
+}

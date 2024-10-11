@@ -1,0 +1,90 @@
+.UnidadeSection {
+    width: 100%;
+    background: linear-gradient(to right, var(--color-bg-gradient-1), var(--color-bg-gradient-2));
+
+    padding: 30px 0px;
+
+    div {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+
+        .TitleOne {
+            width: 406px;
+            height: 61px;
+            background: var(--color-orange);
+            border-radius: 41px;
+            align-content: center;
+            padding: 10px;
+            margin: 10px auto;
+        }
+
+        .TitleTwo{
+            margin-top: 15px;
+        }
+
+        .TitleThree{
+            width: 738px;
+            height: 63px;
+            border-radius: 41px;
+            background: white;
+            align-content: center;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .Text{
+            width: 623px;
+            margin-bottom: 30px;
+
+            strong{
+                font-weight: 900;
+            }
+        }
+
+        .Btn{
+            width: 786px;
+            height: 55px;
+            align-content: center;
+
+            border-radius: 13px;
+            background: var(--btn-1-green);
+            box-shadow: 0px 4px 4px 0px #00000040;
+            &:hover{
+                background: #1ED30D;
+            }
+        }
+    }
+
+    @media (max-width: 500px) {
+        div {
+            .TitleOne {
+                width: 90%; 
+                height: auto; 
+                padding: 10px;
+            }
+
+            .TitleTwo {
+                margin-top: 10px;
+            }
+
+            .TitleThree {
+                width: 90%; 
+                height: auto; 
+                padding: 15px;
+            }
+
+            .Text {
+                width: 90%; 
+                margin-bottom: 20px;
+            }
+
+            .Btn {
+                width: 100%; 
+                height: 50px; 
+                margin-top: 15px; 
+            }
+        }
+    }
+}

@@ -1,0 +1,115 @@
+.VideoSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+        margin-bottom: 100px;
+
+        span {
+            background: var(--color-orange);
+            color: white;
+            border-radius: 13px;
+            padding: 0px 5px;
+        }
+
+        strong {
+            font-weight: 800;
+            color: var(--green-video-section);
+        }
+    }
+
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+
+        .VideoContainer {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            iframe {
+                margin: 10px 40px;
+            }
+        }
+    }
+
+    a {
+        width: 70%;
+        background: linear-gradient(to bottom, var(--color-gradient-btn-1), var(--color-gradient-btn-2));
+        border-radius: 14px;
+        margin-bottom: 50px;
+
+        &:hover{
+            background: linear-gradient(to top, var(--color-gradient-btn-1), var(--color-gradient-btn-2));
+
+        }
+
+        div {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+
+            img{
+                width: 33px;
+                height: 32px;
+            }
+
+            p{
+                span{
+                    color: var(--yellow-font-btn);
+                }
+            }
+        }
+    }
+
+    img{
+        max-width: 557px;
+        width: 100%;
+    }
+
+    .Line{
+        width: 100%;
+        height: 24px;
+        margin-top: 50px;
+        background: linear-gradient(530deg, #FFE9D8 0%, #FF7800 100%);
+
+    }
+
+    @media (max-width: 500px) {
+        h2 {
+            margin-bottom: 50px;
+            text-align: center; 
+        }
+
+        div {
+            width: 90%; 
+
+            .VideoContainer {
+                flex-direction: column;
+                iframe {
+                    margin: 10px 0;
+                }
+            }
+        }
+
+        a {
+            width: 90%;
+            margin-bottom: 30px;
+        }
+
+        .Line {
+            margin-top: 30px; 
+            height: 16px; 
+        }
+    }
+    
+}

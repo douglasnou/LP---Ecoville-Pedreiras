@@ -1,0 +1,1 @@
+export const Items = ["Praça", "Baby Park", "Pet Park", "Academia ao Ar Livre", "Academia do Idoso", "Eco Park", "Espaço Eco", "Ciclovia"];

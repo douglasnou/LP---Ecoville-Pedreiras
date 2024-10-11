@@ -1,0 +1,154 @@
+%title{
+    font-family: var(--font);
+    text-align: center;
+}
+
+.unidade-title-1{
+    @extend %title;
+    font-weight: 500;
+    font-size: clamp(1rem, -0.357rem + 2.619vw, 2rem);
+   line-height: 12.20px;
+    color: white;
+}
+
+.unidade-title-2{
+    @extend %title;
+    font-weight: 800;
+    font-size: clamp(1.25rem, 0rem + 3.333vw, 3rem);
+    line-height: 58.50px;
+    color: white;
+}
+
+.unidade-title-3{
+    @extend %title;
+    font-weight: 800;
+    font-size: clamp(1.25rem, 0rem + 3.333vw, 3rem);
+    line-height: 48.76px;
+    color: var(--color-orange);
+}
+
+.unidade-text{
+    @extend %title;
+    font-weight: 600;
+    font-size: clamp(0.75rem, 0.214rem + 1.429vw, 1.5rem);
+    line-height: 30px;
+    color: white;
+}
+
+.unidade-btn{
+    @extend %title;
+    font-weight: 800;
+    color: var(--color-font-strong-green);
+    font-size: clamp(1.25rem, 0.714rem + 1.429vw, 2rem);
+}
+
+.about-title{
+    @extend %title;
+    font-weight: 800;
+    line-height: 30px;
+    font-size: clamp(1.125rem, 0.857rem + 0.714vw, 1.5rem);
+    color: white;
+}
+
+.about-text{
+    @extend %title;
+    font-weight: 400;
+    font-size: clamp(0.625rem, 0.446rem + 0.476vw, 0.875rem);
+    line-height: 25px;
+    color: white;
+}
+
+.about-btn{
+    @extend %title;
+    font-weight: 800;
+    font-size: clamp(1.25rem, 0.714rem + 1.429vw, 2rem);
+    color: white;
+}
+
+.icon-text{
+    @extend %title;
+    font-size: 11px;
+    line-height: 13.50px;
+    font-weight: 400;
+    color: var(--color-orange);
+}
+
+.icon-subtitle{
+    @extend %title;
+    font-size: clamp(1.25rem, 0.714rem + 1.429vw, 2rem);
+    line-height: 40px;
+    font-weight: 400;
+    color: var(--text-strong-green);
+}
+
+.park-text{
+    @extend %title;
+    font-weight: 800;
+    font-size: clamp(1.125rem, 0.857rem + 0.714vw, 1.5rem);
+    line-height: 30px;
+    color: var(--color-orange);
+}
+
+.security-title{
+    @extend %title;
+    font-weight: 800;
+    font-size: clamp(1.125rem, 0.857rem + 0.714vw, 1.5rem);
+    line-height: 30px;
+    color: var(--color-orange);
+}
+
+.security-text{
+    @extend %title;
+    font-weight: 400;
+    font-size: clamp(0.625rem, 0.446rem + 0.476vw, 0.875rem);
+    line-height: 25px;
+    color: var(--text-general);
+}
+
+.maranhao-title{
+    @extend %title;
+    font-weight: 800;
+    font-size: clamp(1.125rem, 0.857rem + 0.714vw, 1.5rem);
+    line-height: 30px;
+    color: var(--color-orange);
+}
+
+.maranhao-text{
+    @extend %title;
+    font-weight: 400;
+    font-size: clamp(0.625rem, 0.446rem + 0.476vw, 0.875rem);
+    line-height: 25px;
+    color: var(--text-general);
+}
+
+.city-title{
+    @extend %title;
+    font-size: clamp(1.25rem, 0.714rem + 1.429vw, 2rem);
+    line-height: 49px;
+    font-weight: 700;
+    color: var(--title-green);
+}
+
+.city-text{
+    @extend %title;
+    font-weight: 400;
+    font-size: clamp(0.625rem, 0.446rem + 0.476vw, 0.875rem);
+    line-height: 25px;
+    color: var(--text-general);
+}
+
+.video-title{
+    @extend %title;
+    font-weight: 800;
+    font-size: clamp(1.25rem, 0rem + 3.333vw, 3rem);
+    line-height: 55px;
+    color: var(--color-orange);
+}
+
+.video-btn{
+    @extend %title;
+    font-size: clamp(0.80rem, 0.714rem + 1.429vw, 2rem);
+    line-height: 32px;
+    font-weight: 800;
+    color: white;
+}
