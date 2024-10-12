@@ -53,7 +53,7 @@
 .about-text{
     @extend %title;
     font-weight: 400;
-    font-size: clamp(0.625rem, 0.446rem + 0.476vw, 0.875rem);
+    font-size: clamp(0.750rem, 0.446rem + 0.476vw, 0.875rem);
     line-height: 25px;
     color: white;
 }
@@ -100,7 +100,7 @@
 .security-text{
     @extend %title;
     font-weight: 400;
-    font-size: clamp(0.625rem, 0.446rem + 0.476vw, 0.875rem);
+    font-size: clamp(0.750rem, 0.446rem + 0.476vw, 0.875rem);
     line-height: 25px;
     color: var(--text-general);
 }
@@ -116,7 +116,7 @@
 .maranhao-text{
     @extend %title;
     font-weight: 400;
-    font-size: clamp(0.625rem, 0.446rem + 0.476vw, 0.875rem);
+    font-size: clamp(0.750rem, 0.446rem + 0.476vw, 0.875rem);
     line-height: 25px;
     color: var(--text-general);
 }
@@ -132,7 +132,7 @@
 .city-text{
     @extend %title;
     font-weight: 400;
-    font-size: clamp(0.625rem, 0.446rem + 0.476vw, 0.875rem);
+    font-size: clamp(0.750rem, 0.446rem + 0.476vw, 0.875rem);
     line-height: 25px;
     color: var(--text-general);
 }
