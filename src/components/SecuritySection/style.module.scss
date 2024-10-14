@@ -39,8 +39,9 @@
     }
 
     @media (max-width: 500px) {
+        height: 60vh;
         flex-direction: column;
-        background: url("../../assets/bg-media.png");
+        background: url("../../assets/security-2.png");
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -58,6 +59,7 @@
                 width: 90%;
                 height: auto;
                 margin: 0 auto;
+                margin-top: 0px;
 
                 h2 {
                     text-align: center;
