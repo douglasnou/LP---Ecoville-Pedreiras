@@ -59,34 +59,35 @@
 
     @media (max-width: 500px) {
         .Container {
-            flex-direction: column; /* Altera a direção para coluna */
+            flex-direction: column;
 
             .IconsItems {
-                width: 100%; /* Ocupar 100% da largura */
+                width: 100%;
                 
                 ul {
-                    width: 100%; /* Ajusta para a largura total da tela */
-                    margin: 20px auto; /* Menor margem para dispositivos móveis */
+                    width: 100%;
+                    margin: 20px auto;
 
                     li {
-                        width: 100%; /* Cada item ocupará 100% da largura disponível */
-                        max-width: 300px; /* Define um limite máximo para evitar que os itens fiquem muito grandes */
-                        height: auto; /* Ajusta a altura automaticamente */
+                        width: 100%;
+                        max-width: 300px;
+                        height: auto;
+                        padding: 10px;
                     }
                 }
             }
 
             .LogoSection {
-                width: 100%; /* Ocupar 100% da largura */
+                width: 100%;
                 
                 img {
-                    width: 100%; /* Imagem ocupa toda a largura */
-                    max-width: 300px; /* Define um limite para a imagem */
+                    width: 100%;
+                    max-width: 300px;
                 }
 
                 p {
-                    width: 100%; /* O texto ocupa toda a largura */
-                    max-width: 300px; /* Limite para o texto */
+                    width: 100%;
+                    max-width: 250px;
                 }
             }
         }
