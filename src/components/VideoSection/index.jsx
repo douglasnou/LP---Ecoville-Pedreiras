@@ -9,6 +9,10 @@ export const VideoSection = () => {
                     E agora <span>É SUA VEZ</span> de morar no melhor e mais completo Bairro Planejado de <strong>PEDREIRAS!</strong>
                 </h2>
 
+                <p className={`video-subtitle`}>
+                    Confira abaixo o <strong>depoimento de nossos clientes</strong> que adquiriram lotes no Ecoville Lago da Pedra
+                </p>
+
                 <div className={styled.VideoContainer}>
                     <iframe
                         src="https://www.youtube.com/embed/MLEtzo_ZK6s"

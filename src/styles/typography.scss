@@ -1,17 +1,17 @@
-%title{
+%title {
     font-family: var(--font);
     text-align: center;
 }
 
-.unidade-title-1{
+.unidade-title-1 {
     @extend %title;
     font-weight: 500;
     font-size: clamp(1rem, -0.357rem + 2.619vw, 2rem);
-   line-height: 12.20px;
+    line-height: 12.20px;
     color: white;
 }
 
-.unidade-title-2{
+.unidade-title-2 {
     @extend %title;
     font-weight: 800;
     font-size: clamp(1.25rem, 0rem + 3.333vw, 3rem);
@@ -19,7 +19,7 @@
     color: white;
 }
 
-.unidade-title-3{
+.unidade-title-3 {
     @extend %title;
     font-weight: 800;
     font-size: clamp(1.25rem, 0rem + 3.333vw, 3rem);
@@ -27,7 +27,7 @@
     color: var(--color-orange);
 }
 
-.unidade-text{
+.unidade-text {
     @extend %title;
     font-weight: 600;
     font-size: clamp(0.75rem, 0.214rem + 1.429vw, 1.5rem);
@@ -35,14 +35,14 @@
     color: white;
 }
 
-.unidade-btn{
+.unidade-btn {
     @extend %title;
     font-weight: 800;
     color: var(--color-font-strong-green);
     font-size: clamp(1.25rem, 0.714rem + 1.429vw, 2rem);
 }
 
-.about-title{
+.about-title {
     @extend %title;
     font-weight: 800;
     line-height: 30px;
@@ -50,7 +50,7 @@
     color: white;
 }
 
-.about-text{
+.about-text {
     @extend %title;
     font-weight: 400;
     font-size: clamp(0.750rem, 0.446rem + 0.476vw, 0.875rem);
@@ -58,14 +58,14 @@
     color: white;
 }
 
-.about-btn{
+.about-btn {
     @extend %title;
     font-weight: 800;
     font-size: clamp(1.25rem, 0.714rem + 1.429vw, 2rem);
     color: white;
 }
 
-.icon-text{
+.icon-text {
     @extend %title;
     font-size: 11px;
     line-height: 13.50px;
@@ -73,7 +73,7 @@
     color: var(--color-orange);
 }
 
-.icon-subtitle{
+.icon-subtitle {
     @extend %title;
     font-size: clamp(1.25rem, 0.714rem + 1.429vw, 2rem);
     line-height: 40px;
@@ -81,7 +81,7 @@
     color: var(--text-strong-green);
 }
 
-.park-text{
+.park-text {
     @extend %title;
     font-weight: 800;
     font-size: clamp(1.125rem, 0.857rem + 0.714vw, 1.5rem);
@@ -89,7 +89,7 @@
     color: var(--color-orange);
 }
 
-.security-title{
+.security-title {
     @extend %title;
     font-weight: 800;
     font-size: clamp(1.125rem, 0.857rem + 0.714vw, 1.5rem);
@@ -97,7 +97,7 @@
     color: var(--color-orange);
 }
 
-.security-text{
+.security-text {
     @extend %title;
     font-weight: 400;
     font-size: clamp(0.750rem, 0.446rem + 0.476vw, 0.875rem);
@@ -105,7 +105,7 @@
     color: var(--text-general);
 }
 
-.maranhao-title{
+.maranhao-title {
     @extend %title;
     font-weight: 800;
     font-size: clamp(1.125rem, 0.857rem + 0.714vw, 1.5rem);
@@ -113,7 +113,7 @@
     color: var(--color-orange);
 }
 
-.maranhao-text{
+.maranhao-text {
     @extend %title;
     font-weight: 400;
     font-size: clamp(0.750rem, 0.446rem + 0.476vw, 0.875rem);
@@ -121,7 +121,7 @@
     color: var(--text-general);
 }
 
-.city-title{
+.city-title {
     @extend %title;
     font-size: clamp(1.25rem, 0.714rem + 1.429vw, 2rem);
     line-height: 49px;
@@ -129,7 +129,7 @@
     color: var(--title-green);
 }
 
-.city-text{
+.city-text {
     @extend %title;
     font-weight: 400;
     font-size: clamp(0.750rem, 0.446rem + 0.476vw, 0.875rem);
@@ -137,7 +137,7 @@
     color: var(--text-general);
 }
 
-.video-title{
+.video-title {
     @extend %title;
     font-weight: 800;
     font-size: clamp(1.25rem, 0rem + 3.333vw, 3rem);
@@ -145,7 +145,16 @@
     color: var(--color-orange);
 }
 
-.video-btn{
+.video-subtitle {
+    @extend %title;
+    font-weight: 500;
+    line-height: 30px;
+    line-height: 29px;
+    font-size: clamp(1.125rem, 0.857rem + 0.714vw, 1.25rem);
+    color: var(--color-orange);
+}
+
+.video-btn {
     @extend %title;
     font-size: clamp(0.80rem, 0.714rem + 1.429vw, 2rem);
     line-height: 32px;
