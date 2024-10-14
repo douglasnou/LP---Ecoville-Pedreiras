@@ -70,11 +70,13 @@
             padding: 10px;
 
             img{
-                width: 33px;
-                height: 32px;
+                width: 10%;
+                height: 10%;
             }
 
             p{
+                margin: auto 0;
+                text-align: center;
                 span{
                     color: var(--yellow-font-btn);
                 }
