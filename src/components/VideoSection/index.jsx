@@ -10,7 +10,7 @@ export const VideoSection = () => {
                 </h2>
 
                 <p className={`video-subtitle`}>
-                    Confira abaixo o <strong>depoimento de nossos clientes</strong> que adquiriram lotes no Ecoville Lago da Pedra
+                    Confira abaixo os <strong>depoimentos dos nossos clientes</strong> que adquiriram lotes no Ecoville Lago da Pedra.
                 </p>
 
                 <div className={styled.VideoContainer}>
