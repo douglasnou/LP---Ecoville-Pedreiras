@@ -21,7 +21,7 @@ export const AboutSection = () => {
                 </p>
 
                 <a className="about-btn" href="https://wa.me/559888385253/?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Ecoville%20Pedreiras!%F0%9F%92%9A%F0%9F%A4%A9" target="_blank">
-                    QUERO COMPRAR
+                    SAIBA MAIS
                 </a>
             </div>
 
