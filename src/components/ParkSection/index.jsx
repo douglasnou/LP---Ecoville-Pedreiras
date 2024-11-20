@@ -1,5 +1,4 @@
-import { Items } from "../../arrays/Items";
-import Park from '../../assets/Ecopark.png';
+import { Cards } from "../../arrays/Items";
 import styled from "./style.module.scss";
 
 export const ParkSection = () => {
@@ -8,16 +7,19 @@ export const ParkSection = () => {
             <div className={styled.List}>
                 <ul>
                     {
-                        Items.map((item) => (
+                        Cards.map((item) => (
                             <li>
-                                <p className={`park-text`}>{item}</p>
+                                <div>
+                                    <img src={item.img} alt="imagem do ecoville pedreiras" />
+                                    <p className="icon-text">{item.text}</p>
+                                    <div>
+                                        <p>{item.name}</p>
+                                    </div>
+                                </div>
                             </li>
                         ))
                     }
                 </ul>
-            </div>
-            <div className={styled.ImgSection}>
-                <img src={Park} />
             </div>
         </section>
     )

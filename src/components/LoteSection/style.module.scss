@@ -1,0 +1,187 @@
+.LoteSection {
+    width: 100%;
+    height: 50vh;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .LoteContainer {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        .LoteLeft {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .LoteText {
+
+                width: 100%;
+                height: 80%;
+                margin-bottom: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+
+                h2 {
+                    width: 80%;
+                    font-family: var(--font);
+                    font-size: clamp(1.8rem, 0.536rem + 1.905vw, 2.25rem);
+                    font-weight: 800;
+                    color: var(--title-green);
+
+                    span {
+                        color: #D19706;
+                    }
+                }
+
+                p {
+                    width: 80%;
+                    font-family: var(--font);
+                    font-size: clamp(0.25rem, 0.536rem + 1.905vw, 1rem);
+                    line-height: 25px;
+                    font-weight: 400;
+
+                }
+            }
+
+            a {
+                width: 70%;
+                height: 40px;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                background: linear-gradient(107.51deg, #A76915 7.12%, #FADD7E 44.94%, #A76915 93.65%, #FADD7E 135.32%);
+                border-radius: 11px;
+
+                p {
+                    font-family: var(--font);
+                    font-size: 1rem;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                    color: white;
+                }
+
+                &:hover {
+                    background: linear-gradient(287.51deg, #A76915 7.12%, #FADD7E 44.94%, #A76915 93.65%, #FADD7E 135.32%);
+                }
+            }
+        }
+
+        .LoteRight {
+            width: 50%;
+            height: 100%;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    @media(max-width: 1200px){
+        height: 50vh;
+        .LoteContainer{
+            width: 100%;
+            height: 100%;
+            flex-direction: column;
+            align-items: center;
+
+            .LoteLeft{
+                width: 100%;
+                height: 60%;
+                margin-bottom: 30px;
+
+                .LoteText{
+                    height: 100%;
+                    height: 100%;
+                    justify-content: flex-end;
+                }
+            }
+
+            .LoteRight{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                img{
+                    height: 50%;
+                    width: 90%;
+                }
+            }
+        }
+    }
+
+    @media (min-width: 1440px) and (max-width: 1500px){
+        height: 50vh;
+        .LoteContainer{
+            width: 100%;
+            height: 100%;
+            flex-direction: column;
+            align-items: center;
+    
+            .LoteLeft{
+                width: 100%;
+                height: 100%;
+                margin-bottom: 50px;
+                align-items: center;
+                .LoteText{
+                    align-items: center;
+                    text-align: center;
+                }
+            }
+    
+            .LoteRight{
+                width: 100%;
+                height: 100%;
+                img{
+                    height: 70%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 2000px) {
+    .LoteSection {
+        .LoteContainer {
+            .LoteLeft {
+                width: 50%;
+                height: 70%;
+                justify-content: space-between;
+
+                .LoteText {
+
+                    width: 100%;
+                    height: 80%;
+                    justify-content: first baseline;
+
+                    h2 {
+                        font-size: clamp(2rem, 0.536rem + 1.905vw, 3.5rem);
+                    }
+
+                    p {
+                        width: 80%;
+                        font-size: 1.5rem;
+                        line-height: 35px;
+                    }
+                }
+
+                a {
+                    width: 70%;
+                    height: 70px;
+                }
+
+            }
+        }
+    }
+}
+

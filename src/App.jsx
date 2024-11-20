@@ -1,19 +1,25 @@
 import { useEffect } from "react";
 import { AboutSection } from "./components/AboutSection";
 import { BannerSection } from "./components/BannerSection";
-import { Citysection } from "./components/CitySection";
 import { IconSection } from "./components/IconsSection";
 import { MaranhaoSection } from "./components/MaranhaoSection";
 import { ParkSection } from "./components/ParkSection";
 import { SecuritySection } from "./components/SecuritySection";
 import { UnidadeSection } from "./components/UnidadeSection";
 import { VideoSection } from "./components/VideoSection";
+import { BannerTwoSection } from "./components/BannerTwoSection";
+import { LineSection } from "./components/LineSection";
+import { EcoSection } from "./components/EcoSection";
+import { LineTwoSection } from "./components/LineTwoSection";
+import { EcoTwoSection } from "./components/EcoTwoSection";
+import { LoteSection } from "./components/LoteSection";
+import { FooterSection } from "./components/FooterSection";
 import ReactGA from "react-ga4"
 import "./styles/index.scss";
 
 function App() {
 
-  useEffect(()=>{
+  useEffect(() => {
     ReactGA.initialize("G-1XLHJN1Y8L");
 
     ReactGA.send("pageview");
@@ -24,12 +30,18 @@ function App() {
       <BannerSection />
       <UnidadeSection />
       <AboutSection />
+      <BannerTwoSection />
       <IconSection />
+      <LineSection />
       <ParkSection />
       <SecuritySection />
+      <EcoSection />
+      <LineTwoSection />
+      <EcoTwoSection />
+      <LoteSection />
       <MaranhaoSection />
-      <Citysection />
       <VideoSection />
+      <FooterSection />
     </>
   )
 }

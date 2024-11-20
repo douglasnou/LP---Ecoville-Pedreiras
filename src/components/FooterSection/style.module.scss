@@ -1,0 +1,61 @@
+.FooterSection {
+    margin-top: 50px;
+    width: 100%;
+
+    .Img1 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px auto;
+
+        img {
+            width: 40%;
+        }
+    }
+
+    .FooterBtn {
+        width: 100%;
+        height: 126px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background: linear-gradient(180deg, #4AC44A 0%, #005A32 100%);
+
+        &:hover {
+        background: linear-gradient(360deg, #4AC44A 0%, #005A32 100%);
+
+        }
+
+        div {
+            width: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                width: 50px;
+            }
+
+            p {
+                span {
+                    color: var(--yellow-font-btn);
+                }
+            }
+        }
+
+    }
+
+    .Img2 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px auto;
+
+        img {
+            width: 100%;
+        }
+    }
+}

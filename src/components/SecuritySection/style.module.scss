@@ -1,10 +1,13 @@
 .SecuritySection {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background: url("../../assets/bg-section.png");
-    background-size: contain;
-    background-position: center;
+    background-size: 100%;
+    background-position: bottom;
     background-repeat: no-repeat;
+    background-origin: border-box;
+    margin: 100px auto;
+    margin-bottom: 0;
 
     display: flex;
     align-items: center;
@@ -39,12 +42,13 @@
     }
 
     @media (max-width: 1100px) {
-        height: 70vh;
+        height: 25vh;
         flex-direction: column;
         background: url("../../assets/security-2.png");
-        background-size: contain;
-        background-position: center;
+        background-size: 100%;
+        background-position: bottom;
         background-repeat: no-repeat;
+        margin-bottom: 0;
 
         .Nothing {
             width: 100%;
@@ -71,5 +75,14 @@
                 }
             }
         }
+    }
+
+    @media(min-width: 2200px){
+        height: 50vh;
+        margin-bottom: 0;
+    }
+
+    @media(min-width: 1440px) and (max-width: 1500px){
+        height: 30vh;
     }
 }
