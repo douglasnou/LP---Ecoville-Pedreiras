@@ -1,11 +1,5 @@
-import React from "react";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import About from "../../assets/about-img.png";
 import styled from "./style.module.scss";
-import { Carroussel } from "../../arrays/carrossel";
 
 
 export const AboutSection = () => {
@@ -26,22 +20,7 @@ export const AboutSection = () => {
             </div>
 
             <div className={styled.AboutImg}>
-                <Swiper
-                    modules={[Navigation, Pagination, Autoplay]}
-                    spaceBetween={30}
-                    slidesPerView={1}
-                    navigation
-                    pagination={{ clickable: true }}
-                    autoplay={{ delay: 3000, disableOnInteraction: false }}
-                    loop={true}>
-                    {
-                        Carroussel.map((item) => (
-                            <SwiperSlide>
-                                <img src={item} alt="Ecoville Pedreiras" />
-                            </SwiperSlide>
-                        ))
-                    }
-                </Swiper>
+                <img src={About} alt="Ecoville Pedreiras visto de cima" />
             </div>
         </section>
     );
