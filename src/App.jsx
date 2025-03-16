@@ -20,7 +20,7 @@ import "./styles/index.scss";
 function App() {
 
   useEffect(() => {
-    ReactGA.initialize("G-1XLHJN1Y8L");
+    ReactGA.initialize(import.meta.env.VITE_GA_KEY);
 
     ReactGA.send("pageview");
   }, [])
